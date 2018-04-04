@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84F2C152074F2D400F3CD27 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F2C142074F2D400F3CD27 /* Functions.swift */; };
+		D84F2C172074F40500F3CD27 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D84F2C162074F40500F3CD27 /* logo.png */; };
+		D84F2C192074F70A00F3CD27 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F2C182074F70A00F3CD27 /* MainViewController.swift */; };
+		D84F2C1B207522B700F3CD27 /* memoryLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D84F2C1A207522B700F3CD27 /* memoryLogo.png */; };
+		D84F2C1D2075262700F3CD27 /* buttonGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D84F2C1C2075262600F3CD27 /* buttonGreen.png */; };
+		D84F2C1F20752BEF00F3CD27 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F2C1E20752BEF00F3CD27 /* LevelViewController.swift */; };
+		D84F2C2120752C0900F3CD27 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84F2C2020752C0900F3CD27 /* GameViewController.swift */; };
 		D894403F20554B0500230659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894403E20554B0500230659 /* AppDelegate.swift */; };
-		D894404120554B0500230659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894404020554B0500230659 /* ViewController.swift */; };
+		D894404120554B0500230659 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894404020554B0500230659 /* WelcomeViewController.swift */; };
 		D894404420554B0500230659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D894404220554B0500230659 /* Main.storyboard */; };
 		D894404720554B0500230659 /* Hw_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D894404520554B0500230659 /* Hw_iOS.xcdatamodeld */; };
 		D894404920554B0500230659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D894404820554B0500230659 /* Assets.xcassets */; };
@@ -35,9 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D84F2C142074F2D400F3CD27 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		D84F2C162074F40500F3CD27 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D84F2C182074F70A00F3CD27 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D84F2C1A207522B700F3CD27 /* memoryLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memoryLogo.png; sourceTree = "<group>"; };
+		D84F2C1C2075262600F3CD27 /* buttonGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonGreen.png; sourceTree = "<group>"; };
+		D84F2C1E20752BEF00F3CD27 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		D84F2C2020752C0900F3CD27 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D894403B20554B0500230659 /* Hw-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hw-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D894403E20554B0500230659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D894404020554B0500230659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D894404020554B0500230659 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D894404320554B0500230659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D894404620554B0500230659 /* Hw_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hw_iOS.xcdatamodel; sourceTree = "<group>"; };
 		D894404820554B0500230659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +90,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D84F2C102074F28100F3CD27 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D894404020554B0500230659 /* WelcomeViewController.swift */,
+				D84F2C182074F70A00F3CD27 /* MainViewController.swift */,
+				D84F2C1E20752BEF00F3CD27 /* LevelViewController.swift */,
+				D84F2C2020752C0900F3CD27 /* GameViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D84F2C112074F29200F3CD27 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				D84F2C122074F29F00F3CD27 /* Images */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		D84F2C122074F29F00F3CD27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D84F2C1C2075262600F3CD27 /* buttonGreen.png */,
+				D84F2C1A207522B700F3CD27 /* memoryLogo.png */,
+				D84F2C162074F40500F3CD27 /* logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D84F2C132074F2B800F3CD27 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D84F2C142074F2D400F3CD27 /* Functions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		D894403220554B0500230659 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +150,10 @@
 		D894403D20554B0500230659 /* Hw-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D84F2C132074F2B800F3CD27 /* Utilities */,
+				D84F2C112074F29200F3CD27 /* Supported Files */,
+				D84F2C102074F28100F3CD27 /* ViewControllers */,
 				D894403E20554B0500230659 /* AppDelegate.swift */,
-				D894404020554B0500230659 /* ViewController.swift */,
 				D894404220554B0500230659 /* Main.storyboard */,
 				D894404820554B0500230659 /* Assets.xcassets */,
 				D894404A20554B0500230659 /* LaunchScreen.storyboard */,
@@ -235,9 +288,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84F2C172074F40500F3CD27 /* logo.png in Resources */,
 				D894404C20554B0500230659 /* LaunchScreen.storyboard in Resources */,
 				D894404920554B0500230659 /* Assets.xcassets in Resources */,
 				D894404420554B0500230659 /* Main.storyboard in Resources */,
+				D84F2C1B207522B700F3CD27 /* memoryLogo.png in Resources */,
+				D84F2C1D2075262700F3CD27 /* buttonGreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D894404120554B0500230659 /* ViewController.swift in Sources */,
+				D84F2C2120752C0900F3CD27 /* GameViewController.swift in Sources */,
+				D894404120554B0500230659 /* WelcomeViewController.swift in Sources */,
+				D84F2C192074F70A00F3CD27 /* MainViewController.swift in Sources */,
 				D894403F20554B0500230659 /* AppDelegate.swift in Sources */,
+				D84F2C1F20752BEF00F3CD27 /* LevelViewController.swift in Sources */,
 				D894404720554B0500230659 /* Hw_iOS.xcdatamodeld in Sources */,
+				D84F2C152074F2D400F3CD27 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
